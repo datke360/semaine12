@@ -1,0 +1,47 @@
+     body {
+        margin:auto;
+        padding-top:20px;
+        width: 300px;
+        font-family: groove;
+        background-image:url("images/fond1.jpg");
+	    background-size:cover;
+
+      }
+
+      input[type="submit"] {
+        margin-left: 10px;
+        width: 50px; height: 26px;
+      }
+      
+      h1{
+        text-align:center;
+      }
+
+      #search {
+		color :blue;
+        width: 305px; height: 22px;
+        border: 1px solid #AAA;
+      }
+
+      #search:hover, #search:focus {
+        border-color: #777;
+      }
+      
+      #results {
+        display: none;
+        width: 300px;
+        border: 1px solid #AAA;
+        background-color: #FFF;
+      }
+
+      #results div {
+        width: 300px;
+        padding: 2px 4px;
+        text-align: left;
+        border:1px;
+        background-color: #FFF;
+      }
+
+      #results div:hover, .result_focus {
+        background-color: #DDD !important;
+      }

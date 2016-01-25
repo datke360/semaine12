@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jeu du Morpion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+
+  <header>
+        <div class="container">
+			<div class="col-xs-12">
+				<div class="row">
+				    <div class="entete">
+				        <h1><img src="images/morpionG.jpg"></img> Jeu du Morpion <img src="images/morpionD.jpg"></img></h1>
+				    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  <body>
+    <section class="victory">
+      <article class="player1_victory">
+        <h1>Equipe</h1><br>
+        <img src="images/croix.jpg" id="croix"></img>
+        <p id="player1_victory"></p>
+      </article>
+      <article class="player2_victory">
+        <h1>Equipe</h1><br>
+        <img src="images/rond.jpg" id="rond"></img>
+        <p id="player2_victory"></p>
+      </article>
+    </section>
+
+    <section id="intel_board">
+
+    </section>
+
+    <section id="game_board">
+      <article id="row_1">
+        <div id="col_1" class="case"></div><div id="col_2" class="case"></div><div id="col_3" class="case"></div>
+      </article>
+      <article id="row_2" class="case">
+        <div id="col_4" class="case"></div><div id="col_5" class="case"></div><div id="col_6" class="case"></div>
+      </article>
+      <article id="row_3" class="case">
+        <div id="col_7" class="case"></div><div id="col_8" class="case"></div><div id="col_9" class="case"></div>
+      </article>
+    </section>
+
+    <section id="player_board">
+
+    </section>
+
+    <button id="btn">Commencer </button>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
